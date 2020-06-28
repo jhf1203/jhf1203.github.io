@@ -4,9 +4,11 @@ Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
 */
 
+
+
 body {
   /* Box-model */
-  padding: 0;
+  padding: 0px;
 
   /* Positioning */
   margin: 0;
@@ -16,39 +18,52 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
+  
 
   /* Visual */
-  background: #efeee7;
+  
+  
 }
 
-header {
-  background: #d21034;
-}
+
 
 h1 {
   /* Box-model */
-  padding: 20px 0;
+  
 
   /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 10 0 10 0;
+  
   font-size: 28px;
+  
 
   /* Typography */
   color: #eee;
   text-align: center;
 
   /* Visual */
-  background: #333;
+  
 }
 
 h2 {
   font-size: 24px;
+  font-family: 'Noto Serif', serif;
+  padding-left:1px;
 }
 
 a {
   color: #d21034;
 }
+
+ul {font-size:20px;
+    padding-top:20px;
+    box-align:right;
+  }
+
+li {float:right;
+    text-align:right;
+    box-align:right;
+  }
 
 .container {
   /* Box-model */
@@ -62,6 +77,7 @@ a {
 #contact-info,
 #bio-image {
   float: left;
+  z-index: 2;
 }
 
 #main-bio {
