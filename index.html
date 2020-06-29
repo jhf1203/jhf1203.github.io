@@ -11,13 +11,17 @@
 
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Josefin+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <h1 class="navbar-brand" href="#">Jim Faulkner</h1>
+  
+  <div class="nc-photo"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1 class="navbar-brand h1-font" href="#">Jim Faulkner</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,17 +44,26 @@
     </nav>
   </header>
 
-  <div class="container">
+  <section class="container">
 
-    <section id="main-bio">
+    <h2 class="row">About Me</h2>
+    <div class="row row-format">
+      <div class="col-md-3">
+        <img src="./assets/profile.jpg" alt="My Photo" id="bio-image">
+      </div>
+      <div class="col-md-9">
+        <p>
+          I'm a North Carolina Native, born and raised in the Southeastern part of the state and a graduate of East Carolina University with a degree in Finance.  In my spare time I enjoy homebrewing, collecting and playing records, photography, snow-skiing, and architecture.  I currenly live in North Raleigh with my wife and our young son.
+        </p>
+        <p>
+          One of the many things I love about where I live is continuing to see it grow as an innovative business hub of the Southeast.  I'm excited about software development being an integral part of that continuing growth, and fascinated with how limitless the possibilities are within lines of code.  As I move through and beyond the Coding Boot Camp at UNC I look forward to using my skills to help create, support, and communicate with area businesses.
+        </p>
+      </div>
+    </div>
 
-      <h2>Your Name</h2>
-      <img src="http://placehold.it/200x200" alt="Your Image" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+  </section>
 
-    </section>
-
-  </div>
+  
 
 </body>
 
