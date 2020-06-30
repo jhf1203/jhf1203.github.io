@@ -6,127 +6,222 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
 
 
 html {
+
   height:100%;
 
-  
-}
+  }
   
 
 body {
-  /* Box-model */
+  
+  /* Box-Model */
+  margin: 0;
   padding: 0px;
   height:100%;
-  
-
-  /* Positioning */
-  margin: 0;
-  font-family: 'Catamaran', sans-serif;
 
   /* Typography */
+  font-family: 'Catamaran', sans-serif;
   line-height: 150%;
   color: #333;
-  
-  
 
-  /* Visual */
-  
 }
-
-header {
-  
-  
-}
-
 
 
 h1 {
-  /* Box-model */
   
-
-  /* Positioning */
+  /* Box-Model */
   margin: 10 0 10 0;
-  font-size: 48px;
   
-
   /* Typography */
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Baskervville', serif;
+  font-size: 40px;
   color: #eee;
   text-align: center;
-  font-size: 40px;
 
-  /* Visual */
-  z-index: 1;
 }
 
 h2 {
-  font-size: 34px;
-  font-family: 'Josefin Slab', serif;
-  padding-left:15px;
-  padding-top:25px;
-  
-}
 
-a {
-  color: #d21034;
+  /* Box-Model */
+  margin-top:0;
+  border: solid 1px black;
+  padding:5px;
+  padding-bottom:0px;
+  
+  /* Positioning */
+  position:relative;
+  right:15px;
+  top:8px;
+  width:200px;
+
+  /* Typography */
+  font-size: 30px;
+  text-align: left;
+
+  /* Aesthetic */
+  background-color:white;
+  opacity: 0.7;
+  
 }
 
 p {
   
+  /* Typography */
   font-size:15.5px;
   text-align:justify;
   line-height:21px;
-}
 
-
-
-.h1-font {
-  font-size:50px;
-  padding-top:15px;
-  padding-left:90px;
-}
-
-.container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
-  
-}
-
-.row-format {
-
-  margin-bottom:10px;
 }
 
 .nc-photo {
-  background-image: url("./assets/NC-Wall.JPG"); 
+  
+  /* Positioning */
   background-size:120%;
   background-repeat:none;
   background-position:center;
   min-width: 100%;
   min-height: 100%;
   position:fixed;
-  opacity:.25;
+  
+  /*Aesthetic */
+  background-image: url("./assets/NC-Wall.JPG"); 
+  opacity:.3;
 
 }
 
-.col-md-9 {
-  border: solid 1px black;
-  background-color:white;
-  opacity: 0.7;
-  padding-top: 20px;
+.navbar-nav {
+
+  /* Box-Model */
+  padding-right:64px;
+
 }
 
 .navbar-dark {
-  opacity:0.4;
+
+  /* Aesthetic */
+  opacity:0.6;
+  
+}
+
+.h1-font {
+
+  /* Box-Model */
+  padding-left:112px;
+
+  /* Typography */
+  font-size:50px;
+  padding-top:15px;
+  
+}
+
+.btn {
+
+  /* Box-Model */
+  padding-bottom:5px;
+  padding-top:5px;
+
+  /* Positioning */
+  width:92px;
+  height:30px;
+
+  /* Typography */
+  font-family: 'Catamaran', sans-serif;
+  font-size:15px;
+  vertical-align: middle;
+  
+}
+
+.btn-link {
+  color:white;
+}
+
+.btn-about {
+
+  /* Positioning */
+  position:relative;
+  left:175px;
+  width:150px;
+  height:40px;
+
+  /* Typography */
+  font-size: 25px;
+  
+}
+
+.btn-portfolio {
+
+  /* Positioning */
+  position:relative;
+  top:15px;
+  left:182px;
+
+}
+
+.btn-e-mail {
+
+  /* Positioning */
+  position:relative;
+  left:90px;
+  bottom:9px;
+
+}
+
+.btn-linkedin {
+
+  /* Positioning */
+  position:relative;
+  left:85px;
+  bottom:9px;
+
+}
+
+.btn-github {
+
+  /* Positioning */
+  position:relative;
+  top:15px;
+}
+
+.github-nav {
+
+  /* Box-Model */
+  padding-right:30px;
+
+}
+
+.container {
+
+  /* Box-model */
+  width: 1024px;
+  
+}
+
+.row-1 {
+
+  /* Box-model */
+  margin-top:20px;
+  margin-bottom: 2px;
+  padding-bottom:2px;
+  
+}
+
+.bio-box {
+
+  /* Box-Model */
+  border: solid 1px black;
+  padding-top: 20px;
+
+  /* Aesthetic */
+  background-color:white;
+  opacity: 0.7;
+  
 }
 
 #bio-image {
+
   /* Box-model */
   width: 200px;
   height: 200px;
-
-  /* Positioning */
-
   margin-right: 20px;
+  
 }

@@ -5,14 +5,14 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>1.2.9 Exercise</title>
-
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+  <title>Jim Faulkner</title>
 
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Josefin+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Catamaran:wght@300&display=swap" rel="stylesheet">
+  <link href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -28,16 +28,20 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+            <a class="nav-link btn btn-secondary btn-md active btn-about" role="button" aria-pressed="true" href="#">Close-Up <i class="fa fa-user"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mailto:jhf1203@gmail.com">E-mail</a>
+          <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-link btn-md active btn-portfolio" role="button" aria-pressed="true">Content <i class="fa fa-book"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank">LinkedIn</a>
+            <a class="nav-link btn btn-link btn-sm active btn-e-mail" href="mailto:jhf1203@gmail.com" role="button" aria-pressed="true">Contact <i class="fa fa-envelope-o e-mail-button"></i></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/jhf1203" target="blank">Github</a>
+          <li class="nav-item"> 
+            <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-link btn-sm active btn-linkedin" role="button" aria-pressed="true">Connect <i class="fa fa-linkedin-square"></i></a>
+          </li>
+          <li class="nav-item github-nav">
+            <a href="https://github.com/jhf1203" target="_blank" class="btn btn-link btn-sm active btn-github" role="button" aria-pressed="true">Collab <i class="fa fa-github-square"></i></a>
+              
           </li>
         </ul>
       </div>
@@ -46,12 +50,18 @@
 
   <section class="container">
 
-    <h2 class="row">About Me</h2>
-    <div class="row row-format">
+    <div class="row row-1">
+      <div class="col-md-3">
+        <h2 class="row1-format">About Me</h2>
+      </div>
+      <div class="col-md-9">      
+      </div>
+      
+    <div class="row">
       <div class="col-md-3">
         <img src="./assets/profile.jpg" alt="My Photo" id="bio-image">
       </div>
-      <div class="col-md-9">
+      <div class="col-md-9 bio-box">
         <p>
           I'm a North Carolina Native, born and raised in the Southeastern part of the state and a graduate of East Carolina University with a degree in Finance.  In my spare time I enjoy homebrewing, collecting and playing records, photography, snow-skiing, and architecture.  I currenly live in North Raleigh with my wife and our young son.
         </p>
@@ -62,8 +72,6 @@
     </div>
 
   </section>
-
-  
 
 </body>
 
