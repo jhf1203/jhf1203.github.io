@@ -18,6 +18,7 @@ body {
   margin: 0;
   padding: 0px;
   height:100%;
+  width:auto !important;
 
   /* Typography */
   font-family: 'Catamaran', sans-serif;
@@ -37,6 +38,13 @@ h1 {
   font-size: 40px;
   color: #faf9f8;
   text-align: center;
+
+}
+
+a:hover {
+
+  /* Typography */
+  color:#a55d45 !important;
 
 }
 
@@ -66,7 +74,7 @@ h2 {
 }
 
 p {
-  
+
   /* Typography */
   font-size:15.5px;
   text-align:justify;
@@ -98,7 +106,7 @@ footer {
   
   /* Positioning */
   background-size:120%;
-  background-repeat:none;
+  background-repeat:no-repeat;
   background-position:center;
   min-width: 100%;
   min-height: 100%;
@@ -128,7 +136,12 @@ footer {
 .h1-font {
 
   /* Box-Model */
-  padding-left:112px;
+  padding: 
+  left 50%;
+
+  /*Positioning */
+  position:relative;
+  left:9%;  
 
   /* Typography */
   font-size:50px;
@@ -153,6 +166,7 @@ footer {
 
 .btn-link {
   color:#faf9f8;
+  
 }
 
 .btn-current {
@@ -162,8 +176,9 @@ footer {
   height:40px;
 
   /* Positioning */
-  position:relative;
-  left:175px;
+  position:fixed;
+  left:66%;
+  top:3.5%;
   
 
   /* Typography */
@@ -174,42 +189,36 @@ footer {
 .btn-prev {
 
   /* Positioning */
-  position:relative;
-  top:15px;
-  left:182px;
+  position:fixed;
+  left:78%;
+  top:2.3%;
 
 }
 
 .btn-e-mail {
 
   /* Positioning */
-  position:relative;
-  left:90px;
-  bottom:9px;
+  position:fixed;
+  left:78%;
+  top:6%;
 
 }
 
 .btn-linkedin {
 
   /* Positioning */
-  position:relative;
-  left:90px;
-  bottom:9px;
+  position:fixed;
+  right:8%;
+  top:2.3%;
 
 }
 
 .btn-github {
 
   /* Positioning */
-  position:relative;
-  top:15px;
-}
-
-.btn-index-content {
-
-  /* Positioning */ 
-  position:relative;
-  left:185px;
+  position:fixed;
+  top:6%;
+  right:7.5%;
 }
 
 .github-nav {
@@ -259,8 +268,8 @@ footer {
 
   /* Positioning */
   position: relative;
-  left:120px;
-  top:5px;
+  left:9.5%;
+  top:20%;
 
   /* Typography */
   font-size: 14px;
@@ -270,7 +279,7 @@ footer {
 .btn-footer {
 
   /* Box-Model */
-  width:40px;
+  width:5%;
 }
 
 #bio-image {
