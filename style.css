@@ -38,7 +38,13 @@ h1 {
   font-size: 40px;
   color: #faf9f8;
   text-align: center;
+  opacity:0.9;
 
+}
+
+nav {
+  position:absolute;
+  z-index: 99;
 }
 
 a:hover {
@@ -118,12 +124,9 @@ footer {
 
 }
 
-.navbar-nav {
 
-  /* Box-Model */
-  padding-right:64px;
 
-}
+
 
 .navbar-dark {
 
@@ -149,6 +152,29 @@ footer {
   
 }
 
+.dropright {
+  
+  /* Box-Model */
+  position:fixed;
+  right:9%;
+  
+}
+
+.dropdown-menu {
+
+  /* Aesthetic */
+  background-color:#faf9f8,1;
+  color: #1b1b1b;
+ 
+}
+
+.dropdown-item {
+
+  /* Typography */
+  font-size:12px;
+
+}
+
 .btn {
 
   /* Box-Model */
@@ -168,6 +194,7 @@ footer {
   color:#faf9f8;
   
 }
+
 
 .btn-current {
 
