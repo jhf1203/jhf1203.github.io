@@ -31,19 +31,29 @@ body {
 h1 {
   
   /* Box-Model */
-  margin: 10 0 10 0;
+  padding-top:10px;
+  padding-bottom:0px;
   
+  /* Positioning */
+  
+  text-align: center;
+  position:relative;
+  left:6%;  
+
   /* Typography */
   font-family: 'Baskervville', serif;
-  font-size: 40px;
   color: #faf9f8;
-  text-align: center;
-  opacity:0.9;
+  font-size:50px !important;
+  
 
 }
 
-nav {
-  
+ul {
+
+  /* Positioning */
+  position:absolute;
+  bottom:-10%;
+
 }
 
 a:hover {
@@ -87,6 +97,18 @@ p {
 
 }
 
+h3 {
+
+  font-size:20px;
+  vertical-align: middle;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-left:0px;
+  text-align: left;
+  text-decoration:underline
+ 
+}
+
 footer {
   
   /*Box-Model */
@@ -123,47 +145,36 @@ footer {
 
 }
 
+.navbar-nav {
 
-
-
+  /* Box-Model */
+  padding-right:80px;
+}
 
 .navbar-dark {
 
   /* Aesthetic */
   opacity:0.6;
   
-  
 }
 
-.h1-font {
-
-  /* Box-Model */
-  padding: 
-  left 50%;
-
-  /*Positioning */
-  position:relative;
-  left:9%;  
+.nav-item {
 
   /* Typography */
-  font-size:50px;
-  padding-top:15px;
-  
+  font-size: 12px;
 }
-
-
 
 .btn {
 
   /* Box-Model */
   padding-bottom:5px;
   padding-top:5px;
-  width:96px;
+  width:79px;
   height:30px;
   
   /* Typography */
   font-family: 'Catamaran', sans-serif;
-  font-size:15px;
+  font-size:12px;
   vertical-align: middle;
   
 }
@@ -174,65 +185,6 @@ footer {
 }
 
 
-.btn-current {
-
-  /* Box-Model */
-  width:150px;
-  height:40px;
-
-  /* Positioning */
-  position:fixed;
-  left:66%;
-  top:3.5%;
-  
-
-  /* Typography */
-  font-size: 25px;
-  
-}
-
-.btn-prev {
-
-  /* Positioning */
-  position:fixed;
-  left:78%;
-  top:2.3%;
-
-}
-
-.btn-e-mail {
-
-  /* Positioning */
-  position:fixed;
-  left:78%;
-  top:6%;
-
-}
-
-.btn-linkedin {
-
-  /* Positioning */
-  position:fixed;
-  right:8%;
-  top:2.3%;
-
-}
-
-.btn-github {
-
-  /* Positioning */
-  position:fixed;
-  top:6%;
-  right:7.5%;
-}
-
-.github-nav {
-
-  /* Box-Model */
-  padding-right:30px;
-
-}
-
 .container {
 
   /* Box-model */
@@ -240,7 +192,7 @@ footer {
   
 }
 
-.row-1 {
+.row {
 
   /* Box-model */
   margin-top:20px;
@@ -260,12 +212,40 @@ footer {
   
 }
 
+.folio-row {
+  /* Box-Model */
+  
+  border: solid 1px #1b1b1b;
+  background-color:#faf9f8;
+  opacity: 0.7;
+  width:104.5%;
+  height:100%;
+  margin-left:-1.5%; 
+  padding-bottom:10px; 
+  padding-top:20px;
+  
+  
+}
+
+.folio-title {
+
+  width:175px;
+  height:175px;
+}
+
+
+.folio-summary {
+   
+  margin-left:-14px;
+   
+}
+
 .footer-nav {
 
   /* Positioning */
   position: relative;
   bottom:38px;
-  right:120px;
+  right:100px;
 
 }
 
@@ -273,7 +253,7 @@ footer {
 
   /* Positioning */
   position: relative;
-  left:9.5%;
+  left:6%;
   top:20%;
 
   /* Typography */
@@ -281,10 +261,11 @@ footer {
   
 }
 
-.btn-footer {
+.btn {
 
   /* Box-Model */
   width:5%;
+  font-size:14px;
 }
 
 #bio-image {
