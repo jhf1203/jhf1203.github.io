@@ -43,8 +43,7 @@ h1 {
 }
 
 nav {
-  position:absolute;
-  z-index: 99;
+  
 }
 
 a:hover {
@@ -152,28 +151,7 @@ footer {
   
 }
 
-.dropright {
-  
-  /* Box-Model */
-  position:fixed;
-  right:9%;
-  
-}
 
-.dropdown-menu {
-
-  /* Aesthetic */
-  background-color:#faf9f8,1;
-  color: #1b1b1b;
- 
-}
-
-.dropdown-item {
-
-  /* Typography */
-  font-size:12px;
-
-}
 
 .btn {
 
