@@ -1,0 +1,177 @@
+<!-- HTML Bio with CSS -->
+<!-- Validated with Nu HTML Checker -->
+<!-- validator.w3.org -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jim Faulkner | Contact Me</title>
+
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Catamaran:wght@300&display=swap" rel="stylesheet">
+  <link href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  
+  <div class="nc-photo"></div>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+      <h1 class="navbar-brand">Jim Faulkner</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://jhf1203.github.io">Close-Up <i class="fa fa-user"></i></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://jhf1203.github.io/portfolio"> Content <i class="fa fa-book"></i></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact <i class="fa fa-envelope-o"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="row">
+        <div class="col-md-3 col-box">
+          <h2>Contact</h2>
+        </div>
+        <div class="col-md-1">    
+        </div>
+        <div class="col-md-8 col-box">
+            <p>I would love to hear from you!  I thrive on connection, and am always on the lookout for opportunities to network and collaborate.  Please send me a message, and feel free to connect with me online as well.</p>      
+        </div>
+      </div> 
+    <div class="row col-box">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+                    
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-outline-secondary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li class="contact-list"><i class="fa fa-map-marker"></i>
+                    <p>Raleigh, NC 27613, USA</p>
+                </li>
+
+                <li class="contact-list"><i class="fa fa-linkedin-square"></i>
+                    <p><a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank">LinkedIn</a></p>
+                </li>
+
+                <li class="contact-list"><i class="fa fa-github"></i>
+                    <p><a href="https://github.com/jhf1203" target="_blank">Github</a></p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+  </section>
+
+  <footer class="navbar fixed-bottom navbar-custom">
+
+    <p class="footer-text">Once I learn more about .js I have some good ideas for this</p>
+    <ul class="nav justify-content-end footer-nav">
+      <li class="nav-item">
+        <a href="#" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-user"></i></a>
+      </li>
+      <li class="nav-item">
+        <a href="https://jhf1203.github.io/portfolio" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-book"></i></a>
+        </li>
+      <li class="nav-item">
+        <a href="mailto:jhf1203@gmail.com" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-envelope-o e-mail-button"></i></a>
+      </li>
+      <li class="nav-item">
+          <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-linkedin-square"></i></a>
+      </li>
+      <li class="nav-item">
+          <a href="https://github.com/jhf1203" target="_blank" class="btn btn-sm active  btn-footer" role="button" aria-pressed="true"> <i class="fa fa-github"></i></a>
+      </li>
+    </ul>
+  </footer>
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
