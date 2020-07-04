@@ -44,6 +44,7 @@ h3 {
 
   /* Positioning */
   vertical-align: middle;
+  text-align: center;
 
   /* Typography */
   font-size:20px;
@@ -268,7 +269,7 @@ nav p {
 .contact-list p {
 
   /* Box-Model */
-  padding-top:20px;
+  padding-top:0px;
 
   /* Typography */
   font-size:18px;
@@ -279,8 +280,11 @@ nav p {
 
 .contact-list i {
 
+  /* Box-Model */
+  padding-top:15px;
+
   /* Typography */
-  font-size:40px;
+  font-size:30px;
   
 }
 
