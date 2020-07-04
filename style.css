@@ -4,37 +4,15 @@ Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
 */
 
-
-html {
-
-  height:100%;
-
-  }
   
 
 body {
-  
-  /* Box-Model */
-  margin: 0;
-  padding: 0px;
-  height:100%;
-  width:auto !important;
 
   /* Typography */
   font-family: 'Catamaran', sans-serif;
   line-height: 150%;
   color:#1b1b1b;
 
-}
-
-
-h1 {
-
-  /* Typography */
-  font-family: 'Baskervville', serif;
-  color: #faf9f8;
-  font-size:50px 
-  
 }
 
 
@@ -84,9 +62,15 @@ footer {
   color:#faf9f8;
 
   /* Aesthetic */
-  background-color:#1b1b1b;
-  opacity:0.7;
+  background-color:#1b1b1b !important;
+  
 
+}
+
+nav p {
+
+  padding-top:12px;
+  padding-left:125px;
 }
 
 
@@ -114,8 +98,10 @@ footer {
   padding-left:90px;
 
   /* Typography */
+  font-family: 'Baskervville', serif;
   font-size:50px;
   color:#faf9f8
+  
 }
 
 
@@ -135,13 +121,25 @@ footer {
   
 }
 
+.navbar-dark a {
+
+  color: #faf9f8 !important;  
+
+}
+
 
 .navbar-custom {
 
   background-color: #1b1b1b;
   
+  
 }
 
+.active {
+
+  font-weight:bold;
+
+}
 
 .nav-item {
 
@@ -248,12 +246,18 @@ footer {
   text-align:left;
 }
 
+
+.contact-row {
+
+  margin-bottom: 50px;
+}
+
    
 .contact-list,
 .contact-list a,
 .contact-list p {
 
-  font-size:20px;
+  font-size:18px;
   text-align: center;
   padding-top:20px;
   color:#1b1b1b
@@ -267,33 +271,6 @@ footer {
   
 }
 
-
-.nav {
-
-  background-color: #1b1b1b;
-}
-
-
-.footer-nav {
-
-  /* Box-Model  */
-
-  padding-right:100px;
-
-  /* Positioning */
-
-}
-
-
-.footer-text {
-
-  /* Typography */
-  font-size: 14px;
-  vertical-align: middle;
-  
-}
-
-
 .btn {
 
   /* Box-Model */
@@ -302,10 +279,109 @@ footer {
 }
 
 
+.nav {
+
+  background-color: #1b1b1b;
+}
+
+.fixed-bottom,
+.sticky-bottom {
+
+  height:30px;
+}
+
+.footer-nav {
+
+  padding-bottom: 18px;
+}
+
 a:hover {
 
   /* Typography */
   color:#a55d45 !important; 
+
+}
+
+@media only screen and (max-width:768px) {
+
+  .bio-image {
+
+    width: 124px;
+    height:124px;
+
+  }
+
+  .nc-photo {
+
+    width:125%;
+    height:125%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  
+  h2 {
+
+    font-size:25px;
+
+  }
+
+  h3 {
+    
+    font-size:18px;
+  
+  }
+  
+  .col-md-3 {
+
+    margin-bottom:10px;
+    width:100%;
+
+  }
+  
+  .col-box {
+  
+    width: 100%;
+    margin-bottom:10px;
+
+  }
+
+  .navbar-brand {
+
+    font-size:35px;
+    padding-left:32px;
+
+  }
+
+  .bio-box {
+
+    margin-bottom:40px;
+
+  }
+
+  .bio-image {
+
+    width: 124px;
+    height:124px;
+    margin-left:25%;
+    margin-right: 25%;
+
+
+  }
+
+  .contact-list a,
+  .contact-list p {
+
+    font-size:15px;
+
+  }
+
+  .contact-row {
+
+    margin-bottom:50px;
+
+  }
 
 }
 

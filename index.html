@@ -9,26 +9,40 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jim Faulkner | About Me</title>
-
-  <link rel="stylesheet" type="text/css" href="reset.css">
+  <title>Jim Faulkner | About Me</title>>
+  
+  <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <!-- Google Fonts CDN -->
   <link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Catamaran:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome CDN -->
   <link href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <!-- My custom styling -->
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
   
+  <!-- This is the image that serves as the page background -->
   <div class="nc-photo"></div>
+
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+      
+      <!-- Brand header text with my name -->
       <h1 class="navbar-brand">Jim Faulkner</h1>
+      
+      <!-- Toggler for responsiveness -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
+      <!-- Nav items with links to other pages on the site -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav d-flex align-items-end">
           <li class="nav-item active">
@@ -39,11 +53,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://jhf1203.github.io/contact">Contact <i class="fa fa-envelope-o"></i></a>
-          </li>
-          
-          
-              
-          
+          </li>         
         </ul>
       </div>
     </nav>
@@ -51,6 +61,7 @@
 
   <section class="container">
 
+    <!-- First row of content -->
     <div class="row">
       <div class="col-md-3 col-box">
         <h2>About Me</h2>
@@ -58,11 +69,16 @@
       <div class="col-md-9">      
       </div>
     </div>
-      
+    
+    <!-- Second row of content -->
     <div class="row">
+
+      <!-- Column with my profile image -->
       <div class="col-md-3">
-        <img class= "bio-image img-fluid" src="./assets/profile.jpg" alt="My Photo" id="bio-image">
+        <img class= "bio-image img-fluid" src="./assets/Profile.jpg" alt="My Photo" id="bio-image">
       </div>
+
+      <!-- Column with my bio -->
       <div class="col-md-9 bio-box">
         <p>
           I'm a North Carolina Native, born and raised in the Southeastern part of the state and a graduate of East Carolina University with a degree in Finance.  In my spare time I enjoy homebrewing, collecting and playing records, photography, snow-skiing, and architecture.  I currenly live in North Raleigh with my wife and our young son.
@@ -75,27 +91,41 @@
 
   </section>
 
-  <footer class="navbar fixed-bottom">
+  <footer>
 
-    <p class="footer-text">Once I learn more about .js I have some good ideas for this</p>
-
-    <ul class="nav justify-content-end footer-nav">
-      <li class="nav-item">
-        <a href="#" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-user"></i></a>
-      </li>
-      <li class="nav-item">
-        <a href="https://jhf1203.github.io/portfolio" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-book"></i></a>
-        </li>
-      <li class="nav-item">
-        <a href="mailto:jhf1203@gmail.com" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-envelope-o e-mail-button"></i></a>
-      </li>
-      <li class="nav-item">
-          <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-link btn-sm" role="button" aria-pressed="true"> <i class="fa fa-linkedin-square"></i></a>
-      </li>
-      <li class="nav-item">
-          <a href="https://github.com/jhf1203" target="_blank" class="btn btn-link btn-sm active  btn-footer" role="button" aria-pressed="true"> <i class="fa fa-github"></i></a>
-      </li>
-    </ul>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-bottom navbar-custom">
+      
+      <!-- This will contain a future script with an interactive feature -->
+      <p>Lorem, ipsum dolor.</p>
+      
+      <!-- Toggler for responsiveness -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Nav items with links to other pages on the site -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav d-flex align-items-end footer-nav">
+          <li class="nav-item active">
+            <a href="https://jhf1203.github.io" target="_blank" class="btn btn-sm" role="button" aria-pressed="true"> <i class="fa fa-user"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" class="btn btn-sm active" role="button" aria-pressed="true"> <i class="fa fa-book"></i></a>
+          </li>
+            
+          <li class="nav-item">
+            <a href="mailto:jhf1203@gmail.com" target="_blank" class="btn btn-sm" role="button" aria-pressed="true"> <i class="fa fa-envelope-o e-mail-button"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-sm" role="button" aria-pressed="true"> <i class="fa fa-linkedin-square"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/jhf1203" target="_blank" class="btn btn-sm  btn-portfolio" role="button" aria-pressed="true"> <i class="fa fa-github"></i></a>
+          </li>
+          </li>         
+        </ul>
+      </div>
+    </nav>
   </footer>
 
   <!-- jQuery CDN -->
