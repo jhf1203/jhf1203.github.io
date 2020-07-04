@@ -15,7 +15,6 @@ h2 {
 
   /* Box-Model */
   margin-top:0;
-  padding:5px;
   padding-bottom:0px;
 
   /* Typography */
@@ -44,7 +43,6 @@ h3 {
 
   /* Positioning */
   vertical-align: middle;
-  text-align: center;
 
   /* Typography */
   font-size:20px;
@@ -60,11 +58,23 @@ footer {
   max-height:35px;
 
   /* Typography */
-  color:#faf9f8;
-
-  /* Aesthetic */
-  background-color:#1b1b1b !important;
+  color:#fff;
+  font-weight:bold !important;
   
+}
+
+h4 {
+
+  /* Box-Model */
+  padding-left:110px;
+  padding-top:6px;
+
+  /* Typography */
+  font-family: 'Catamaran', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  opacity:1;
+
 }
 
 
@@ -106,7 +116,7 @@ nav p {
   /* Typography */
   font-family: 'Baskervville', serif;
   font-size:50px;
-  color:#faf9f8
+  color:#fff;
   
 }
 
@@ -130,7 +140,7 @@ nav p {
 
 .navbar-dark a {
 
-  color: #faf9f8 !important;  
+  color: #fff;  
 
 }
 
@@ -162,14 +172,14 @@ nav p {
 .btn a {
 
   /* Box-Model */
-  padding-bottom:5px;
+  padding-bottom:7px;
   padding-top:5px;
   
   /* Typography */
   font-family: 'Catamaran', sans-serif;
   font-size:14px;
   vertical-align: middle;
-  color:#faf9f8;
+  color:#fff;
   opacity:1;
   
 }
@@ -194,19 +204,6 @@ nav p {
 }
 
 
-.bio-box {
-
-  /* Box-Model */
-  border: solid 1px #1b1b1b;
-  padding-top: 20px;
-
-  /* Aesthetic */
-  background-color:#faf9f8;
-  opacity: 0.7;
-  
-}
-
-
 .col-box {
 
   /* Box-Model */
@@ -221,17 +218,13 @@ nav p {
 }
 
 
-
 /* Styling rules exclusively for the "About Me" page are below */
 
 .bio-image {
 
-  /* Box-Model */
-  margin-right: 20px;
-
   /* Positioning */
-  width: 200px;
-  height: 200px;
+  width: 183px;
+  height: 183px;
   
 }
 
@@ -239,7 +232,7 @@ nav p {
 
 /* Styling rules exclusively for the "Portfolio" page are below */
 
-.folio-row {
+.section-row {
   
   /* Box-Model */
   padding-bottom:10px; 
@@ -248,7 +241,7 @@ nav p {
   /* Aesthetic */
   border: solid 1px #1b1b1b;
   background-color:#faf9f8;
-  opacity: 0.7;
+  opacity: 0.8;
    
 }
 
@@ -291,6 +284,7 @@ nav p {
 
 
 /* Footer styling rules are below for all pages */
+
 
 .nav {
 
@@ -400,12 +394,6 @@ a:hover {
 
     font-size:35px;
     padding-left:22px;
-
-  }
-
-  .bio-box {
-
-    margin-bottom:40px;
 
   }
 
