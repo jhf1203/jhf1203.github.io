@@ -95,7 +95,7 @@ nav p {
 
   /* Box-Model */
   padding-top:10px;
-  padding-left:90px;
+  padding-left:100px;
 
   /* Typography */
   font-family: 'Baskervville', serif;
@@ -316,6 +316,20 @@ a:hover {
     width:125%;
     height:125%;
   }
+
+  .navbar-brand {
+
+    padding-left:60px;
+
+  }
+
+
+  .nc-photo {
+
+    background-image: url("./assets/durm.jpg");
+    background-size: 150%;
+
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -350,7 +364,7 @@ a:hover {
   .navbar-brand {
 
     font-size:35px;
-    padding-left:32px;
+    padding-left:22px;
 
   }
 
