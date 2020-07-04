@@ -1,10 +1,5 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
 
-  
+  /* Styling rules for elements  */
 
 body {
 
@@ -42,11 +37,16 @@ p {
 
 h3 {
 
-  font-size:20px;
-  vertical-align: middle;
+  /* Box-Model */
   margin-top:5px;
-  margin-bottom:5px;
+  margin-bottom:20px;
   padding-left:0px;
+
+  /* Positioning */
+  vertical-align: middle;
+
+  /* Typography */
+  font-size:20px;
   text-align: left;
   text-decoration:underline
  
@@ -55,7 +55,7 @@ h3 {
 
 footer {
   
-  /*Box-Model */
+  /* Box-Model */
   max-height:35px;
 
   /* Typography */
@@ -64,15 +64,20 @@ footer {
   /* Aesthetic */
   background-color:#1b1b1b !important;
   
-
 }
+
 
 nav p {
 
+  /* Box-Model */
   padding-top:12px;
   padding-left:125px;
+
 }
 
+
+
+/* The following rules apply to classes that exist in two or more pages of this project */
 
 .nc-photo {
   
@@ -95,7 +100,7 @@ nav p {
 
   /* Box-Model */
   padding-top:10px;
-  padding-left:100px;
+  padding-left:110px;
 
   /* Typography */
   font-family: 'Baskervville', serif;
@@ -121,6 +126,7 @@ nav p {
   
 }
 
+
 .navbar-dark a {
 
   color: #faf9f8 !important;  
@@ -132,14 +138,16 @@ nav p {
 
   background-color: #1b1b1b;
   
-  
 }
+
 
 .active {
 
+  /* Box-Model */
   font-weight:bold;
 
 }
+
 
 .nav-item {
 
@@ -162,15 +170,6 @@ nav p {
   vertical-align: middle;
   color:#faf9f8;
   opacity:1;
-  
-}
-
-
-.bio-image {
-
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
   
 }
 
@@ -209,47 +208,58 @@ nav p {
 
 .col-box {
 
-    /* Box-Model */
-    border: solid 1px #1b1b1b;
-    padding-top: 5px;
-    padding-bottom:0px;
+  /* Box-Model */
+  border: solid 1px #1b1b1b;
+  padding-top: 5px;
+  padding-bottom:0px;
   
-    /* Aesthetic */
-    background-color:#faf9f8;
-    opacity: 0.7;
+  /* Aesthetic */
+  background-color:#faf9f8;
+  opacity: 0.7;
 
 }
 
 
+
+/* Styling rules exclusively for the "About Me" page are below */
+
+.bio-image {
+
+  /* Box-Model */
+  margin-right: 20px;
+
+  /* Positioning */
+  width: 200px;
+  height: 200px;
+  
+}
+
+
+
+/* Styling rules exclusively for the "Portfolio" page are below */
+
 .folio-row {
   
-  
   /* Box-Model */
-  
+  padding-bottom:10px; 
+  padding-top:20px;
+
+  /* Aesthetic */
   border: solid 1px #1b1b1b;
   background-color:#faf9f8;
   opacity: 0.7;
-  
-  
-  /* width:100%; */
-  /* height:100%; */
-  padding-bottom:10px; 
-  padding-top:20px;
    
 }
 
 
-.folio-title {
 
-  width:175px;
-  height:175px;
-  text-align:left;
-}
-
+/* Styling rules exclusively for the "Contact" page are below */
 
 .contact-row {
 
+  /* Box-Model */
   margin-bottom: 50px;
+
 }
 
    
@@ -257,55 +267,72 @@ nav p {
 .contact-list a,
 .contact-list p {
 
+  /* Box-Model */
+  padding-top:20px;
+
+  /* Typography */
   font-size:18px;
   text-align: center;
-  padding-top:20px;
   color:#1b1b1b
 }
 
 
-.contact-list i
- {
+.contact-list i {
 
+  /* Typography */
   font-size:40px;
   
 }
 
-.btn {
 
-  /* Box-Model */
-  font-size:15px;
 
-}
-
+/* Footer styling rules are below for all pages */
 
 .nav {
 
+  /* Aesthetic */
   background-color: #1b1b1b;
+
 }
 
 .fixed-bottom,
 .sticky-bottom {
 
+  /* Positioning */
   height:30px;
+
 }
 
 .footer-nav {
 
+  /* Box-Model */
   padding-bottom: 18px;
+
 }
+
+
+
+/* This is a catch-all rule specificaly to override multiple other hover rules on multiple pages in multiple classes */
 
 a:hover {
 
   /* Typography */
-  color:#a55d45 !important; 
+  color:#d37d61 !important; 
+  font-weight:bolder !important;
 
 }
 
-@media only screen and (max-width:768px) {
 
+
+/* Media Query */
+
+@media only screen and (max-width:1024px) {
+  
+  /* This corrects sizing and alignment concerns based off of standard tablet and some phone landscape resolutions */
+  
   .bio-image {
 
+    /* Box-Model */
     width: 124px;
     height:124px;
 
@@ -315,7 +342,9 @@ a:hover {
 
     width:125%;
     height:125%;
+
   }
+
 
   .navbar-brand {
 
@@ -332,9 +361,11 @@ a:hover {
   }
 }
 
+
 @media only screen and (max-width: 480px) {
-  /* For mobile phones: */
-  
+    
+  /* This corrects sizing and alignment concerns based off of most phone portrait resolutions */
+
   h2 {
 
     font-size:25px;
@@ -380,7 +411,6 @@ a:hover {
     height:124px;
     margin-left:25%;
     margin-right: 25%;
-
 
   }
 

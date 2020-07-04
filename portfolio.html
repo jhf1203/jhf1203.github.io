@@ -46,13 +46,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="https://jhf1203.github.io">Close-Up <i class="fa fa-user"></i></a>
+            <a class="nav-link" href="https://jhf1203.github.io">Close-Up 
+            <i class="fa fa-user"></i></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"> Content <i class="fa fa-book"></i></a>
+            <a class="nav-link" href="#"> Content 
+            <i class="fa fa-book"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://jhf1203.github.io/contact">Contact <i class="fa fa-envelope-o"></i></a>
+            <a class="nav-link" href="https://jhf1203.github.io/contact">Contact 
+            <i class="fa fa-envelope-o"></i></a>
           </li>      
         </ul>
       </div>
@@ -66,44 +69,65 @@
   <section class="container">
     
     <!-- First row of content -->
-    <div class="row">
-      <div class="col-md-3 col-box">
-        <h2>Portfolio</h2>
-      </div>
-      <div class="col-md-9">      
-      </div>
-    </div>     
-    
-    <!-- Second row of content | Introducing the user to my portfolio -->
-    <div class="row">
-      <div class="col-md-3 ">
-        <img class ="img-fluid bio-image" src="https://via.placeholder.com/150" alt="My Photo" id="bio-image">
-      </div>
-      <div class="col-md-9 col-box">
-        <p>
-          I am so excited to share my body of work with you.  Please see below, in descending order, some selections of my work beginning with my first homework assignment at the UNC Coding Bootcamp in June, 2020.
-        </p>
-        <p>
-          I pride myself on my ideation and creativity.  My background in Interior Design and my natural left-brained-ness gives me a penchant for both meeting parameters and building with functionality in mind, while still humanizing and injecting character into my work.
-        </p>
-      </div>
-    </div> 
- 
-    <!-- This row style will house the actual work in my portfolio.  It is shown here with placeholder images and text to give a feel for the page layout -->
     <div class="row folio-row">
       <div class="col-md-3">
-        <h3>Project Link</h3>
-        <p>Unsolved | www.loremipsum.com </p>
-        <p>Solved | www.ipsumlorem.com</p>
-        <p>Skills Used | Semantic HTML, Javascript</p> 
+        <h2>Portfolio</h2>
+      </div>
+      <div class="col-md-9">
+        <p>
+          I am so excited to share my body of work with you.  Please see below, in 
+          descending order, some selections of my work beginning with my first homework 
+          assignment at the UNC Coding Bootcamp in June, 2020.
+        </p>
+        <p>
+          I pride myself on my ideation and creativity.  My background in Interior Design 
+          and my natural left-brained-ness gives me a penchant for both meeting parameters 
+          and building with functionality in mind, while still humanizing and injecting 
+          character into my work.
+        </p>
+      </div>
+    </div>     
+ 
+    <!-- This row style will house the actual work in my portfolio.  It is shown here with 
+      placeholder text to give a feel for the page layout -->
+    <div class="row folio-row">
+      <div class="col-md-3">
+        <h3><strong>Horiseon | Code Refactor</strong></h3>
+        <p><strong>Unsolved | </strong> 
+          <a href="https://github.com/jhf1203/Horiseon-Unsolved/blob/master/develop/index.html" target="_blank">HTML</a>, 
+          <a href="https://github.com/jhf1203/Horiseon-Unsolved/blob/master/develop/assets/css/style.css" target="_blank">CSS</a>  
+        </p>
+        <p><strong>Solved | </strong>
+          <a href="https://github.com/jhf1203/Horiseon/blob/master/index.html" target="_blank">HTML, 
+            <a href="https://github.com/jhf1203/Horiseon/blob/master/style.css" target="_blank">CSS</a>, 
+            <a href="https://github.com/jhf1203/Horiseon/blob/master/README.md" target="blank">ReadMe</a>, 
+            <a href="https://jhf1203.github.io/Horiseon/" target="_blank">Deployed Website</a>
+        </p>
+        <p><strong>Skills Used | </strong>Semantic HTML, CSS, SEO Optimization
+        </p> 
       </div>
       <div class="col-md-3 folio-summary">
         <h3>Project Summary</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, totam labore numquam perspiciatis maiores natus eligendi quia saepe magnam porro?</p>
+        <p>In this assignment I was tasked to simplify both the HTML and CSS without 
+          impacting the aesthetics or navigation of the deployed website whatsoever</p>
       </div>
       <div class="col-md-6 folio summary">
         <h3>Project Details</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, inventore iste ipsum asperiores quas saepe perferendis pariatur delectus magni? Ipsam enim, qui asperiores exercitationem quaerat ratione delectus suscipit est sed? Optio incidunt animi esse at in delectus assumenda cumque quisquam dolore nam unde nesciunt consectetur modi alias aliquam est eos quo, ipsam quibusdam id nemo! Cupiditate vitae, atque eum fuga vero nemo, nam, reiciendis repellendus nihil possimus sint voluptatem! Quidem id eum earum perferendis obcaecati!</p>
+        <p>I tackled two main ideas to make this project more accessible and efficient
+          for future updates from either myself or other collaborators:
+
+          Semantic HTML:  Many of the divs you see in the unsolved HTML were able to be
+          easily converted into elements that both made sense to code alteration, as well
+          as improved SEO visibility ("header" as an element versus a div class, for example).
+
+          CSS consolidation:  I identified multiple redundancies in the stylesheet that I 
+          was able to condense significantly.  Multiple elements within the same container 
+          had different rules applied that were all the same, yet they were needlessly 
+          individualized as multiple classes.  As a hypothetical SEO firm consistency
+          in aesthetics is extremely important, thus by broadening class scope while minimizing
+          class count we are able to more easily modify the page in the future and still
+          maintain the same visual standards.
+        </p>
       </div>
     </div>
 
@@ -111,22 +135,32 @@
     <div class="row folio-row">
       <div class="col-md-3">
         <h3>Project Link</h3>
-        <p>Unsolved | www.loremipsum.com </p>
-        <p>Solved | www.ipsumlorem.com</p>
-        <p>Skills Used | Semantic HTML, Javascript</p> 
+        <p><strong>Unsolved |</strong> www.loremipsum.com </p>
+        <p><strong>Solved |</strong> www.ipsumlorem.com</p>
+        <p><strong>Skills Used |</strong> Lorem, ipsum, dolor, sit</p> 
       </div>
       <div class="col-md-3">
         <h3>Project Summary</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, totam labore numquam perspiciatis maiores natus eligendi quia saepe magnam porro?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quae ducimus 
+          rem debitis voluptatibus dignissimos sapiente eos dolores repellendus? Non?
+        </p>
       </div>
       <div class="col-md-6">
         <h3>Project Details</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas perspiciatis blanditiis atque iste assumenda totam esse consequatur est tenetur doloremque, placeat cum dolor, at quis. Hic culpa quo saepe impedit doloribus dolorum, rem tempore dolorem debitis, nemo placeat odio tenetur dignissimos eos, ipsum vel officiis laboriosam esse! Totam harum laudantium accusantium iure rem tempora error dolor ipsam ratione odio ea necessitatibus placeat hic perferendis id doloremque eligendi quis illum et reprehenderit, ad veniam? Accusantium, omnis.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde at illum 
+          officiis cum necessitatibus alias, sunt earum corrupti libero aut non nemo 
+          molestias sapiente quisquam ut omnis. Eius eaque culpa est, saepe error magni 
+          iure. Veritatis ab esse sequi ratione veniam unde, deserunt consequatur nobis 
+          impedit animi accusantium, laborum officia vero commodi sed illum aliquid aut 
+          dolores quam, doloremque placeat.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Breaks to create separation from the lowest item in my portfolio and the footer.  This way I do not need to create a separate class for the last item just to have a bottom margin. -->
+  <!-- Breaks to create separation from the lowest item in my portfolio and the footer.  
+    This way I do not need to create a separate class for the last item just to have a 
+    bottom margin. -->
   <br>
   <br>
   
@@ -138,7 +172,9 @@
       <p>Lorem, ipsum dolor.</p>
       
       <!-- Toggler for responsiveness -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+      data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+      aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       
@@ -146,20 +182,30 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav d-flex align-items-end footer-nav">
           <li class="nav-item active">
-            <a href="https://jhf1203.github.io" target="_blank" class="btn btn-sm" role="button" aria-pressed="true"> <i class="fa fa-user"></i></a>
+            <a href="https://jhf1203.github.io" target="_blank" class="btn btn-sm" 
+            role="button" aria-pressed="true"> 
+            <i class="fa fa-user"></i></a>
           </li>
           <li class="nav-item">
-            <a href="#" target="_blank" class="btn btn-sm active" role="button" aria-pressed="true"> <i class="fa fa-book"></i></a>
+            <a href="#" target="_blank" 
+            class="btn btn-sm active" role="button" aria-pressed="true"> 
+            <i class="fa fa-book"></i></a>
           </li>
             
           <li class="nav-item">
-            <a href="mailto:jhf1203@gmail.com" target="_blank" class="btn btn-sm" role="button" aria-pressed="true"> <i class="fa fa-envelope-o e-mail-button"></i></a>
+            <a href="https://jhf1203.github.io/contact" target="_blank" 
+            class="btn btn-sm" role="button" aria-pressed="true"> 
+            <i class="fa fa-envelope-o e-mail-button"></i></a>
           </li>
           <li class="nav-item">
-            <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" class="btn btn-sm" role="button" aria-pressed="true"> <i class="fa fa-linkedin-square"></i></a>
+            <a href="https://www.linkedin.com/in/jim-faulkner-13476534" target="_blank" 
+            class="btn btn-sm" role="button" aria-pressed="true"> 
+            <i class="fa fa-linkedin-square"></i></a>
           </li>
           <li class="nav-item">
-            <a href="https://github.com/jhf1203" target="_blank" class="btn btn-sm  btn-portfolio" role="button" aria-pressed="true"> <i class="fa fa-github"></i></a>
+            <a href="https://github.com/jhf1203" target="_blank" 
+            class="btn btn-sm  btn-portfolio" role="button" aria-pressed="true"> 
+            <i class="fa fa-github"></i></a>
           </li>
           </li>         
         </ul>
@@ -168,7 +214,8 @@
   </footer>
 
   <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" 
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Bootstrap CDN -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
