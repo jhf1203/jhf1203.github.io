@@ -59,7 +59,6 @@ footer {
 
   /* Typography */
   color:#fff;
-  font-weight:bold !important;
   
 }
 
@@ -71,7 +70,7 @@ h4 {
 
   /* Typography */
   font-family: 'Catamaran', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   opacity:1;
 
@@ -120,6 +119,14 @@ nav p {
   
 }
 
+.navbar-dark,
+.navbar-nav,
+.nav-link {
+
+  color:#fff
+  
+}
+
 
 .navbar-nav {
 
@@ -130,24 +137,11 @@ nav p {
 }
 
 
-.navbar-dark {
-
-  /* Aesthetic */
-  opacity:0.7;
-  
-}
-
-
-.navbar-dark a {
-
-  color: #fff;  
-
-}
-
-
 .navbar-custom {
 
+  /* Aesthetic */
   background-color: #1b1b1b;
+  opacity:0.7;
   
 }
 
@@ -164,6 +158,20 @@ nav p {
 
   /* Typography */
   font-size: 14px;
+  color:#fff;
+
+}
+
+
+.navbar-dark a {
+
+  color: #fff;  
+
+}
+
+.nav-link {
+
+  color:#fff;
 
 }
 
@@ -218,6 +226,7 @@ nav p {
 }
 
 
+
 /* Styling rules exclusively for the "About Me" page are below */
 
 .bio-image {
@@ -243,6 +252,13 @@ nav p {
   background-color:#faf9f8;
   opacity: 0.8;
    
+}
+
+.col-folio {
+
+  /* Typography */
+  text-align:left;
+
 }
 
 
@@ -310,7 +326,8 @@ nav p {
 
 
 
-/* This is a catch-all rule specificaly to override multiple other hover rules on multiple pages in multiple classes */
+/* This is a catch-all rule specificaly to override multiple other hover rules on 
+  multiple pages in multiple built-in classes */
 
 a:hover {
 
@@ -324,7 +341,7 @@ a:hover {
 
 /* Media Query */
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width:768px) {
   
   /* This corrects sizing and alignment concerns based off of standard tablet and some phone landscape resolutions */
   
@@ -336,17 +353,11 @@ a:hover {
 
   }
 
-  .nc-photo {
-
-    width:125%;
-    height:125%;
-
-  }
-
 
   .navbar-brand {
 
     padding-left:60px;
+    font-size:40px;
 
   }
 
@@ -357,16 +368,12 @@ a:hover {
     background-size: 150%;
 
   }
-}
 
-
-@media only screen and (max-width: 480px) {
-    
-  /* This corrects sizing and alignment concerns based off of most phone portrait resolutions */
 
   h2 {
 
-    font-size:25px;
+    font-size:24px;
+    font-weight:bold;
 
   }
 
@@ -392,7 +399,7 @@ a:hover {
 
   .navbar-brand {
 
-    font-size:35px;
+    font-size:30px;
     padding-left:22px;
 
   }
@@ -401,8 +408,6 @@ a:hover {
 
     width: 124px;
     height:124px;
-    margin-left:25%;
-    margin-right: 25%;
 
   }
 
@@ -418,6 +423,19 @@ a:hover {
     margin-bottom:50px;
 
   }
+
+
+  .sticky-bottom {
+
+    height:55px;
+
+  }
+
+  .fixed-bottom {
+
+    height:55px;
+  }
+
 
 }
 
