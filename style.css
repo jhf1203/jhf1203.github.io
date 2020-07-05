@@ -41,9 +41,6 @@ h3 {
   margin-bottom:20px;
   padding-left:0px;
 
-  /* Positioning */
-  vertical-align: middle;
-
   /* Typography */
   font-size:20px;
   text-align: left;
@@ -165,12 +162,14 @@ nav p {
 
 .navbar-dark a {
 
+  /* Typography */
   color: #fff;  
 
 }
 
 .nav-link {
 
+  /* Typography */
   color:#fff;
 
 }
@@ -211,6 +210,19 @@ nav p {
 
 }
 
+.section-row {
+  
+  /* Box-Model */
+  padding-bottom:10px; 
+  padding-top:20px;
+
+  /* Aesthetic */
+  border: solid 1px #1b1b1b;
+  background-color:#faf9f8;
+  opacity: 0.8;
+   
+}
+
 
 .col-box {
 
@@ -234,25 +246,13 @@ nav p {
   /* Positioning */
   width: 183px;
   height: 183px;
+  opacity:1;
   
 }
 
 
 
 /* Styling rules exclusively for the "Portfolio" page are below */
-
-.section-row {
-  
-  /* Box-Model */
-  padding-bottom:10px; 
-  padding-top:20px;
-
-  /* Aesthetic */
-  border: solid 1px #1b1b1b;
-  background-color:#faf9f8;
-  opacity: 0.8;
-   
-}
 
 .col-folio {
 
@@ -343,9 +343,11 @@ a:hover {
 
 @media only screen and (max-width:768px) {
   
-  /* This corrects sizing and alignment concerns based off of standard tablet and some phone landscape resolutions */
-  
+
   .bio-image {
+
+    /* This corrects sizing and alignment concerns based off of standard tablet and some 
+    phone landscape resolutions */
 
     /* Box-Model */
     width: 124px;
@@ -356,7 +358,10 @@ a:hover {
 
   .navbar-brand {
 
+    /* Box-Model */
     padding-left:60px;
+
+    /* Typography */
     font-size:40px;
 
   }
@@ -364,6 +369,10 @@ a:hover {
 
   .nc-photo {
 
+    /* This provides an alternate photo that's in portrait orientation, which will still
+    fill the background completely if used on mobile. */
+
+    /* Aesthetic */
     background-image: url("./assets/durm.jpg");
     background-size: 150%;
 
@@ -372,6 +381,8 @@ a:hover {
 
   h2 {
 
+
+    /* Typography */
     font-size:24px;
     font-weight:bold;
 
@@ -379,33 +390,44 @@ a:hover {
 
   h3 {
     
+    /* Typography */
     font-size:18px;
   
   }
   
   .col-md-3 {
 
+    /* Box-Model */
     margin-bottom:10px;
+
+    /* Positioning */
     width:100%;
 
   }
   
   .col-box {
   
-    width: 100%;
+    /* Box-Model */
     margin-bottom:10px;
+
+    /* Positioning */
+    width: 100%;
 
   }
 
   .navbar-brand {
 
-    font-size:30px;
+    /* Box-Model */
     padding-left:22px;
+
+    /* Typography */
+    font-size:30px;
 
   }
 
   .bio-image {
 
+    /* Positioning */
     width: 124px;
     height:124px;
 
@@ -414,12 +436,14 @@ a:hover {
   .contact-list a,
   .contact-list p {
 
+    /* Typography */
     font-size:15px;
 
   }
 
   .contact-row {
 
+    /* Box-Model */
     margin-bottom:50px;
 
   }
@@ -427,13 +451,16 @@ a:hover {
 
   .sticky-bottom {
 
+    /* Positioning */
     height:55px;
 
   }
 
   .fixed-bottom {
 
+    /* Positioning */
     height:55px;
+
   }
 
 
