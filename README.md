@@ -42,7 +42,7 @@ You will find the header and footer consistent across all three pages visually. 
 
 I designed the header as I would a virtual resume, choosing a more profound font for it and including my name within an h1 tag to improve SEO if someone googles me.  I felt that "Close-Up," "Content," and "Contact" flowed more naturally together than "About Me," "Portfolio," and "Contact." The hover color for these and other URLs was also pulled using a color picker, from the background image.
 
-The footer is slightly different in formatting, containing images for brevity instead of words, which freed up enough space to allow quick access to my LinkedIn and Github accounts wihtout needing to navigate to the "Contact" page.
+The footer is slightly different in formatting, containing images for brevity instead of words, which freed up enough space to allow quick access to my LinkedIn and Github accounts without needing to navigate to the "Contact" page.
 
 The goal of the "About Me" page was for the reader to get a good idea as to who I am, and why I'm pursing software development but to only occupy 2/3 of the page.  I chose an image of myself that's professional but clearly takes place in a social situation, to reduce the stuffiness that a "headshot" image can bring.
 
@@ -52,7 +52,7 @@ The contact page I tried to simplify as much as possible, while still coming acr
 
 ________________________________________
 
-My goal in designing this website was to mimic my personal style of neutrality and minimalism, focusing instead on how aesthetics can be derived from function and fit.  This allows for the site to be aesthetically pleasing and functional, yet minimal enough to ensure that the portfolio work takes center stage.  It is something that I created as a homework assignment, but my intent for this will be for it to function as my actual portfolio as I continue to complete class projects.
+My goal in designing this website was to mimic my personal style of neutrality and minimalism, focusing on how aesthetics can be derived from function and fit.  This allows for the site to be aesthetically pleasing and functional, yet minimal enough to ensure that the portfolio work takes center stage.  It is something that I created as a homework assignment, but my intent for this will be for it to function as my actual portfolio as I continue to complete class projects.
 
 - Jim
 

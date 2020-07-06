@@ -52,10 +52,10 @@ h3 {
 footer {
   
   /* Box-Model */
-  max-height:35px;
+  max-height:55px;
 
   /* Typography */
-  color:#fff;
+  color:#faf9f8;
   
 }
 
@@ -68,21 +68,9 @@ h4 {
   /* Typography */
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
-  color: #fff;
-  opacity:1;
-
+  color: #faf9f8;
+  
 }
-
-
-nav p {
-
-  /* Box-Model */
-  padding-top:12px;
-  padding-left:125px;
-
-}
-
-
 
 /* The following rules apply to classes that exist in two or more pages of this project */
 
@@ -103,6 +91,11 @@ nav p {
 }
 
 
+.navbar {
+
+  padding:0px,0px,0px,0px;
+  
+}
 .navbar-brand {
 
   /* Box-Model */
@@ -112,15 +105,7 @@ nav p {
   /* Typography */
   font-family: 'Baskervville', serif;
   font-size:50px;
-  color:#fff;
-  
-}
-
-.navbar-dark,
-.navbar-nav,
-.nav-link {
-
-  color:#fff
+  color:#faf9f8;
   
 }
 
@@ -155,7 +140,7 @@ nav p {
 
   /* Typography */
   font-size: 14px;
-  color:#fff;
+  color:#faf9f8;
 
 }
 
@@ -163,14 +148,7 @@ nav p {
 .navbar-dark a {
 
   /* Typography */
-  color: #fff;  
-
-}
-
-.nav-link {
-
-  /* Typography */
-  color:#fff;
+  color: #faf9f8;  
 
 }
 
@@ -186,7 +164,7 @@ nav p {
   font-family: 'Catamaran', sans-serif;
   font-size:14px;
   vertical-align: middle;
-  color:#fff;
+  color:#faf9f8;
   opacity:1;
   
 }
@@ -254,10 +232,11 @@ nav p {
 
 /* Styling rules exclusively for the "Portfolio" page are below */
 
-.col-folio {
+.col-md-3 a {
 
   /* Typography */
-  text-align:left;
+  color:#1b1b1b;
+  text-decoration:underline;
 
 }
 
@@ -313,14 +292,32 @@ nav p {
 .sticky-bottom {
 
   /* Positioning */
-  height:30px;
+  height:35px;
+
+}
+
+.sticky-bottom {
+
+  padding:0px, 0px, 0px, 0px;
 
 }
 
 .footer-nav {
 
   /* Box-Model */
-  padding-bottom: 18px;
+  
+  background-color:#1b1b1b;
+  height:18px;
+  margin-top:17px;
+
+}
+
+.navbar-index {
+
+  /* Positioning */
+  width:100%;
+  position:fixed;
+  bottom:0px;
 
 }
 
@@ -336,6 +333,7 @@ a:hover {
   font-weight:bolder !important;
 
 }
+
 
 
 
@@ -358,6 +356,9 @@ a:hover {
 
   .navbar-brand {
 
+    /* This makes the font not appear center-aligned on lower-resolution screens, as well
+    as reducing its size */
+
     /* Box-Model */
     padding-left:60px;
 
@@ -372,7 +373,7 @@ a:hover {
     /* This provides an alternate photo that's in portrait orientation, which will still
     fill the background completely if used on mobile. */
 
-    /* Aesthetic */
+    /* Aesthetics */
     background-image: url("./assets/durm.jpg");
     background-size: 150%;
 
@@ -463,6 +464,29 @@ a:hover {
 
   }
 
+  .navbar-index {
+
+    position:static;
+  
+  }
+
+
+}
+
+
+/* Other Media Query | This is the breakpoint for the Navbar Toggler and is undoing the
+Box-Model and sizing rules I gave this class, to ensure the dark background covers the
+entire menu */
+
+@media only screen and (max-width:575px) {
+
+  .footer-nav {
+
+    /* Box-Model */
+    height:inherit;
+    margin-top: 0px;
+
+  }
 
 }
 
