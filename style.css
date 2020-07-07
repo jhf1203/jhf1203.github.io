@@ -59,6 +59,7 @@ footer {
   
 }
 
+
 h4 {
 
   /* Box-Model */
@@ -71,6 +72,7 @@ h4 {
   color: #faf9f8;
   
 }
+
 
 /* The following rules apply to classes that exist in two or more pages of this project */
 
@@ -93,9 +95,12 @@ h4 {
 
 .navbar {
 
+  /* Box-Model */
   padding:0px,0px,0px,0px;
   
 }
+
+
 .navbar-brand {
 
   /* Box-Model */
@@ -110,12 +115,22 @@ h4 {
 }
 
 
+.navbar-dark,
+.navbar-nav,
+.nav-link {
+
+  /* Typography */    
+  color:#faf9f8 !important;
+
+}
+
+
 .navbar-nav {
 
   /* Box-Model */
   padding-right:100px;
   padding-top:20px;
-  
+
 }
 
 
@@ -130,7 +145,7 @@ h4 {
 
 .active {
 
-  /* Box-Model */
+  /* Typographyl */
   font-weight:bold;
 
 }
@@ -145,20 +160,12 @@ h4 {
 }
 
 
-.navbar-dark a {
-
-  /* Typography */
-  color: #faf9f8;  
-
-}
-
-
 .btn,
 .btn a {
 
   /* Box-Model */
-  padding-bottom:7px;
   padding-top:5px;
+  padding-bottom:7px;
   
   /* Typography */
   font-family: 'Catamaran', sans-serif;
@@ -173,8 +180,10 @@ h4 {
 .container {
 
   /* Box-model */
-  width: 80%;
   padding-top:12px;
+
+  /* Positioning */
+  width: 80%;
   
 }
 
@@ -191,9 +200,9 @@ h4 {
 .section-row {
   
   /* Box-Model */
-  padding-bottom:10px; 
   padding-top:20px;
-
+  padding-bottom:10px; 
+  
   /* Aesthetic */
   border: solid 1px #1b1b1b;
   background-color:#faf9f8;
@@ -224,8 +233,20 @@ h4 {
   /* Positioning */
   width: 183px;
   height: 183px;
+
+  /* Aesthetic */
   opacity:1;
   
+}
+
+
+.navbar-index {
+
+  /* Positioning */
+  width:100%;
+  position:fixed;
+  bottom:0px;
+
 }
 
 
@@ -263,6 +284,7 @@ h4 {
   font-size:18px;
   text-align: center;
   color:#1b1b1b
+
 }
 
 
@@ -288,36 +310,28 @@ h4 {
 
 }
 
-.fixed-bottom,
+
 .sticky-bottom {
+
+  /* Box-Model */
+  padding:0px, 0px, 0px, 0px;
 
   /* Positioning */
   height:35px;
 
 }
 
-.sticky-bottom {
-
-  padding:0px, 0px, 0px, 0px;
-
-}
 
 .footer-nav {
 
   /* Box-Model */
-  
-  background-color:#1b1b1b;
-  height:18px;
   margin-top:17px;
 
-}
-
-.navbar-index {
-
   /* Positioning */
-  width:100%;
-  position:fixed;
-  bottom:0px;
+  height:18px;
+
+  /* Aesthetic */
+  background-color:#1b1b1b;
 
 }
 
@@ -336,49 +350,11 @@ a:hover {
 
 
 
-
 /* Media Query */
 
 @media only screen and (max-width:768px) {
   
-
-  .bio-image {
-
-    /* This corrects sizing and alignment concerns based off of standard tablet and some 
-    phone landscape resolutions */
-
-    /* Box-Model */
-    width: 124px;
-    height:124px;
-
-  }
-
-
-  .navbar-brand {
-
-    /* This makes the font not appear center-aligned on lower-resolution screens, as well
-    as reducing its size */
-
-    /* Box-Model */
-    padding-left:60px;
-
-    /* Typography */
-    font-size:40px;
-
-  }
-
-
-  .nc-photo {
-
-    /* This provides an alternate photo that's in portrait orientation, which will still
-    fill the background completely if used on mobile. */
-
-    /* Aesthetics */
-    background-image: url("./assets/durm.jpg");
-    background-size: 150%;
-
-  }
-
+  /* The below group of rules apply to elements and classes on multiple pages */
 
   h2 {
 
@@ -395,26 +371,19 @@ a:hover {
     font-size:18px;
   
   }
-  
-  .col-md-3 {
 
-    /* Box-Model */
-    margin-bottom:10px;
 
-    /* Positioning */
-    width:100%;
+  .nc-photo {
 
-  }
-  
-  .col-box {
-  
-    /* Box-Model */
-    margin-bottom:10px;
+    /* This provides an alternate photo that's in portrait orientation, which will still
+    fill the background completely if used on mobile. */
 
-    /* Positioning */
-    width: 100%;
+    /* Aesthetics */
+    background-image: url("./assets/durm.jpg");
+    background-size: 150%;
 
   }
+
 
   .navbar-brand {
 
@@ -426,21 +395,38 @@ a:hover {
 
   }
 
-  .bio-image {
+
+  .container {
 
     /* Positioning */
+    width:95%;
+
+  }
+
+
+  .col-md-3 {
+
+    /* Box-Model */
+    margin-bottom:10px;
+
+    /* Positioning */
+    width:100%;
+
+  }
+
+
+  /* The below rule applies only to the "About Me" page */
+
+  .bio-image {
+
+    /* Box-Model */
     width: 124px;
     height:124px;
 
   }
 
-  .contact-list a,
-  .contact-list p {
 
-    /* Typography */
-    font-size:15px;
-
-  }
+  /* The below rules apply only to the "Contact" page */
 
   .contact-row {
 
@@ -450,6 +436,28 @@ a:hover {
   }
 
 
+  .col-box {
+  
+    /* Box-Model */
+    margin-bottom:10px;
+
+    /* Positioning */
+    width: 100%;
+
+  }
+
+
+  .contact-list a,
+  .contact-list p {
+
+    /* Typography */
+    font-size:15px;
+
+  }
+
+
+  /* The below rules apply to the footer, and are present on all pages */
+
   .sticky-bottom {
 
     /* Positioning */
@@ -457,15 +465,14 @@ a:hover {
 
   }
 
-  .fixed-bottom {
-
-    /* Positioning */
-    height:55px;
-
-  }
 
   .navbar-index {
 
+    /* This undoes the fixed positioning for this class, which is only in "About Me" but is in the footer.
+    It makes the footer behave like a sticky footer normally would since the page now has a scroll feature
+    on mobile */
+
+    /* Positioning */
     position:static;
   
   }
@@ -483,8 +490,10 @@ entire menu */
   .footer-nav {
 
     /* Box-Model */
-    height:inherit;
     margin-top: 0px;
+
+    /* Positioning */
+    height:inherit;
 
   }
 
