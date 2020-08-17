@@ -261,6 +261,13 @@ h4 {
 
 }
 
+.col-folio p {
+
+  /* Typography */
+  text-align:left;
+
+}
+
 
 
 /* Styling rules exclusively for the "Contact" page are below */
