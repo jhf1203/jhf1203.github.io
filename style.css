@@ -261,10 +261,65 @@ h4 {
 
 }
 
+.resume-link {
+
+  /* Typography */
+  color:#1b1b1b;
+  text-decoration: underline;
+}
+
+.btn-link {
+
+  /* Typography */
+  color:#1b1b1b;
+  text-decoration:underline;
+
+}
+
 .col-folio p {
 
   /* Typography */
   text-align:left;
+
+}
+
+.demo-window {
+
+  /* Box-Model */
+  border: 2px solid #1b1b1b;
+
+  /* Positioning */
+  display: none;
+  position: fixed; 
+  left: 20%;
+  top: 15%;
+  width: 772px; 
+  height: 467px; 
+  overflow: auto; 
+
+  /* Aesthetic */
+  background-color:#faf9f8;
+
+}
+
+.demo-content {
+  
+  /* Positioning */
+  width:768px;
+  height:432px;
+  position:absolute;
+  top:31px;
+}
+
+.fa-window-close {
+  
+  /* Positioning */
+  position: relative;
+  top: 3px;
+  right: 3px;
+
+  /* Aesthetic */
+  color: #d37d61;
 
 }
 
@@ -347,7 +402,9 @@ h4 {
 /* This is a catch-all rule specificaly to override multiple other hover rules on 
   multiple pages in multiple built-in classes */
 
-a:hover {
+a:hover,
+.btn-link:hover,
+.resume-link:hover {
 
   /* Typography */
   color:#d37d61 !important; 
@@ -432,6 +489,15 @@ a:hover {
 
   }
 
+  /* The below rules apply only to the "Portfolio" page */
+
+  .demo-window {
+    left:0%;
+    top:25%;
+    width:450px;
+    height:259px;
+
+  }
 
   /* The below rules apply only to the "Contact" page */
 
