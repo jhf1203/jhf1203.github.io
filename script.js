@@ -46,5 +46,10 @@ $(document).ready(() => {
     $(".fa-window-close").on("click", () => {
         $(".demo-window").css("display", "none");
     })
+    $("#burger-nav").on("click", () => {
+        $(".demo-window").css("display", "block");
+        $(".demo-content").css("display", "block").html("<img src='assets/demo-gifs/burger-demo.gif' height='100%' width='100%'>"
+        );
+    })
 
 })
