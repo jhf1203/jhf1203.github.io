@@ -1,14 +1,14 @@
 $(document).ready(() => {
 
-    $("#pw-generator-demo-nav").on("click", () => {
+    $("#rm-generator-demo-nav").on("click", () => {
         $(".demo-window").css("display", "block");
-        $(".demo-content").css("display", "block").html("<img src='assets/demo-gifs/password-generator-navigation.gif' height='100%' width='100%'>"
+        $(".demo-content").css("display", "block").html("<iframe width='560' height='315' src='https://www.youtube.com/embed/J83TmIJUB-g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'>"
         );
     })
 
-    $("#pw-generator-demo-err").on("click", () => {
+    $("#rm-generator-demo-code").on("click", () => {
         $(".demo-window").css("display", "block")
-        $(".demo-content").css("display", "block").html("<img src='assets/demo-gifs/password-generator-errors.gif' height='100%' width='100%'>"
+        $(".demo-content").css("display", "block").html("<iframe width='560' height='315' src='https://www.youtube.com/embed/wW4C2hOhweg' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'"
         );
        
     })
