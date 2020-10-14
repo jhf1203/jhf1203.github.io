@@ -2,13 +2,13 @@ $(document).ready(() => {
 
     $("#rm-generator-demo-nav").on("click", () => {
         $(".demo-window").css("display", "block");
-        $(".demo-content").css("display", "block").html("<iframe width='560' height='315' src='https://www.youtube.com/embed/J83TmIJUB-g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'>"
+        $(".demo-content").css("display", "block").html("<iframe width='768' height='432' src='https://www.youtube.com/embed/J83TmIJUB-g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'>"
         );
     })
 
     $("#rm-generator-demo-code").on("click", () => {
         $(".demo-window").css("display", "block")
-        $(".demo-content").css("display", "block").html("<iframe width='560' height='315' src='https://www.youtube.com/embed/wW4C2hOhweg' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'"
+        $(".demo-content").css("display", "block").html("<iframe width='768' height='432' src='https://www.youtube.com/embed/wW4C2hOhweg' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'"
         );
        
     })
