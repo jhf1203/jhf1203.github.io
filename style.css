@@ -343,7 +343,7 @@ h4 {
   padding-top:0px;
 
   /* Typography */
-  font-size:18px;
+  font-size:15.5px;
   text-align: center;
   color:#1b1b1b
 
@@ -353,10 +353,10 @@ h4 {
 .contact-list i {
 
   /* Box-Model */
-  padding-top:15px;
+  padding-top:5px;
 
   /* Typography */
-  font-size:30px;
+  font-size:25px;
   
 }
 
