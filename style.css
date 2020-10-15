@@ -1,12 +1,11 @@
-
-  /* Styling rules for elements  */
+/* Styling rules for elements  */
 
 body {
 
   /* Typography */
   font-family: 'Catamaran', sans-serif;
   line-height: 150%;
-  color:#1b1b1b;
+  color: #1b1b1b;
 
 }
 
@@ -14,22 +13,22 @@ body {
 h2 {
 
   /* Box-Model */
-  margin-top:0;
-  padding-bottom:0px;
+  margin-top: 0;
+  padding-bottom: 0px;
 
   /* Typography */
   font-size: 30px;
-  text-align: left; 
-  
+  text-align: left;
+
 }
 
 
 p {
 
   /* Typography */
-  font-size:15.5px;
-  text-align:justify;
-  line-height:21px;
+  font-size: 15.5px;
+  text-align: justify;
+  line-height: 21px;
 
 }
 
@@ -37,58 +36,57 @@ p {
 h3 {
 
   /* Box-Model */
-  margin-top:5px;
-  margin-bottom:20px;
-  padding-left:0px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding-left: 0px;
 
   /* Typography */
-  font-size:20px;
+  font-size: 20px;
   text-align: left;
-  text-decoration:underline
- 
+  text-decoration: underline
 }
 
 
 footer {
-  
+
   /* Box-Model */
-  max-height:55px;
+  max-height: 55px;
 
   /* Typography */
-  color:#faf9f8;
-  
+  color: #faf9f8;
+
 }
 
 
 h4 {
 
   /* Box-Model */
-  padding-left:110px;
-  padding-top:6px;
+  padding-left: 110px;
+  padding-top: 6px;
 
   /* Typography */
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   color: #faf9f8;
-  
+
 }
 
 
 /* The following rules apply to classes that exist in two or more pages of this project */
 
 .nc-photo {
-  
+
   /* Positioning */
-  background-size:120%;
-  background-repeat:no-repeat;
-  background-position:center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
   min-width: 100%;
   min-height: 100%;
-  position:fixed;
-  
+  position: fixed;
+
   /*Aesthetic */
-  background-image: url("./assets/NC-Wall.JPG"); 
-  opacity:.3;
+  background-image: url("./assets/NC-Wall.JPG");
+  opacity: .2;
 
 }
 
@@ -96,22 +94,22 @@ h4 {
 .navbar {
 
   /* Box-Model */
-  padding:0px,0px,0px,0px;
-  
+  padding: 0px, 0px, 0px, 0px;
+
 }
 
 
 .navbar-brand {
 
   /* Box-Model */
-  padding-top:10px;
-  padding-left:110px;
+  padding-top: 10px;
+  padding-left: 110px;
 
   /* Typography */
   font-family: 'Baskervville', serif;
-  font-size:50px;
-  color:#faf9f8;
-  
+  font-size: 50px;
+  color: #faf9f8;
+
 }
 
 
@@ -119,8 +117,8 @@ h4 {
 .navbar-nav,
 .nav-link {
 
-  /* Typography */    
-  color:#faf9f8 !important;
+  /* Typography */
+  color: #faf9f8 !important;
 
 }
 
@@ -128,8 +126,8 @@ h4 {
 .navbar-nav {
 
   /* Box-Model */
-  padding-right:100px;
-  padding-top:20px;
+  padding-right: 100px;
+  padding-top: 20px;
 
 }
 
@@ -138,15 +136,15 @@ h4 {
 
   /* Aesthetic */
   background-color: #1b1b1b;
-  opacity:0.7;
-  
+  opacity: 0.7;
+
 }
 
 
 .active {
 
   /* Typographyl */
-  font-weight:bold;
+  font-weight: bold;
 
 }
 
@@ -155,7 +153,7 @@ h4 {
 
   /* Typography */
   font-size: 14px;
-  color:#faf9f8;
+  color: #faf9f8;
 
 }
 
@@ -164,56 +162,56 @@ h4 {
 .btn a {
 
   /* Box-Model */
-  padding-top:5px;
-  padding-bottom:7px;
-  
+  padding-top: 5px;
+  padding-bottom: 7px;
+
   /* Typography */
   font-family: 'Catamaran', sans-serif;
-  font-size:14px;
+  font-size: 14px;
   vertical-align: middle;
-  color:#faf9f8;
-  opacity:1;
-  
+  color: #faf9f8;
+  opacity: 1;
+
 }
 
 
 .container {
 
   /* Box-model */
-  padding-top:12px;
+  padding-top: 12px;
 
   /* Positioning */
   width: 80%;
-  
+
 }
 
 
 .row {
 
   /* Box-model */
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 2px;
-  padding-bottom:2px;
+  padding-bottom: 2px;
 
 }
 
 .section-row {
-  
+
   /* Box-Model */
-  padding-top:20px;
-  padding-bottom:10px; 
-  
+  padding-top: 20px;
+  padding-bottom: 10px;
+
   /* Aesthetic */
   border: solid 1px #1b1b1b;
-  background-color:#faf9f8;
+  background-color: #faf9f8;
   opacity: 0.8;
   box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .col-box {
@@ -221,10 +219,10 @@ h4 {
   /* Box-Model */
   border: solid 1px #1b1b1b;
   padding-top: 5px;
-  padding-bottom:0px;
-  
+  padding-bottom: 0px;
+
   /* Aesthetic */
-  background-color:#faf9f8;
+  background-color: #faf9f8;
   opacity: 0.7;
 
 }
@@ -240,17 +238,17 @@ h4 {
   height: 183px;
 
   /* Aesthetic */
-  opacity:1;
-  
+  opacity: 1;
+
 }
 
 
 .navbar-index {
 
   /* Positioning */
-  width:100%;
-  position:fixed;
-  bottom:0px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
 
 }
 
@@ -261,30 +259,30 @@ h4 {
 .col-md-3 a {
 
   /* Typography */
-  color:#1b1b1b;
-  text-decoration:underline;
+  color: #1b1b1b;
+  text-decoration: underline;
 
 }
 
 .resume-link {
 
   /* Typography */
-  color:#1b1b1b;
+  color: #1b1b1b;
   text-decoration: underline;
 }
 
 .btn-link {
 
   /* Typography */
-  color:#1b1b1b;
-  text-decoration:underline;
+  color: #1b1b1b;
+  text-decoration: underline;
 
 }
 
 .col-folio p {
 
   /* Typography */
-  text-align:left;
+  text-align: left;
 
 }
 
@@ -295,29 +293,29 @@ h4 {
 
   /* Positioning */
   display: none;
-  position: fixed; 
+  position: fixed;
   left: 20%;
   top: 15%;
-  width: 772px; 
-  height: 467px; 
-  overflow: auto; 
+  width: 772px;
+  height: 467px;
+  overflow: auto;
 
   /* Aesthetic */
-  background-color:#faf9f8;
+  background-color: #faf9f8;
 
 }
 
 .demo-content {
-  
+
   /* Positioning */
-  width:768px;
-  height:432px;
-  position:absolute;
-  top:31px;
+  width: 768px;
+  height: 432px;
+  position: absolute;
+  top: 31px;
 }
 
 .fa-window-close {
-  
+
   /* Positioning */
   position: relative;
   top: 3px;
@@ -339,30 +337,29 @@ h4 {
 
 }
 
-   
+
 .contact-list,
 .contact-list a,
 .contact-list p {
 
   /* Box-Model */
-  padding-top:0px;
+  padding-top: 0px;
 
   /* Typography */
-  font-size:15.5px;
+  font-size: 15.5px;
   text-align: center;
-  color:#1b1b1b
-
+  color: #1b1b1b
 }
 
 
 .contact-list i {
 
   /* Box-Model */
-  padding-top:5px;
+  padding-top: 5px;
 
   /* Typography */
-  font-size:25px;
-  
+  font-size: 25px;
+
 }
 
 
@@ -381,10 +378,10 @@ h4 {
 .sticky-bottom {
 
   /* Box-Model */
-  padding:0px, 0px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
 
   /* Positioning */
-  height:35px;
+  height: 35px;
 
 }
 
@@ -392,13 +389,13 @@ h4 {
 .footer-nav {
 
   /* Box-Model */
-  margin-top:17px;
+  margin-top: 17px;
 
   /* Positioning */
-  height:18px;
+  height: 18px;
 
   /* Aesthetic */
-  background-color:#1b1b1b;
+  background-color: #1b1b1b;
 
 }
 
@@ -412,8 +409,8 @@ a:hover,
 .resume-link:hover {
 
   /* Typography */
-  color:#d37d61 !important; 
-  font-weight:bolder !important;
+  color: #d37d61 !important;
+  font-weight: bolder !important;
 
 }
 
@@ -422,23 +419,23 @@ a:hover,
 /* Media Query */
 
 @media only screen and (max-width:768px) {
-  
+
   /* The below group of rules apply to elements and classes on multiple pages */
 
   h2 {
 
 
     /* Typography */
-    font-size:24px;
-    font-weight:bold;
+    font-size: 24px;
+    font-weight: bold;
 
   }
 
   h3 {
-    
+
     /* Typography */
-    font-size:18px;
-  
+    font-size: 18px;
+
   }
 
 
@@ -457,10 +454,10 @@ a:hover,
   .navbar-brand {
 
     /* Box-Model */
-    padding-left:22px;
+    padding-left: 22px;
 
     /* Typography */
-    font-size:30px;
+    font-size: 30px;
 
   }
 
@@ -468,7 +465,7 @@ a:hover,
   .container {
 
     /* Positioning */
-    width:95%;
+    width: 95%;
 
   }
 
@@ -476,10 +473,10 @@ a:hover,
   .col-md-3 {
 
     /* Box-Model */
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
     /* Positioning */
-    width:100%;
+    width: 100%;
 
   }
 
@@ -490,17 +487,17 @@ a:hover,
 
     /* Box-Model */
     width: 124px;
-    height:124px;
+    height: 124px;
 
   }
 
   /* The below rules apply only to the "Portfolio" page */
 
   .demo-window {
-    left:0%;
-    top:25%;
-    width:450px;
-    height:259px;
+    left: 0%;
+    top: 25%;
+    width: 450px;
+    height: 259px;
 
   }
 
@@ -509,15 +506,15 @@ a:hover,
   .contact-row {
 
     /* Box-Model */
-    margin-bottom:50px;
+    margin-bottom: 50px;
 
   }
 
 
   .col-box {
-  
+
     /* Box-Model */
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
     /* Positioning */
     width: 100%;
@@ -529,7 +526,7 @@ a:hover,
   .contact-list p {
 
     /* Typography */
-    font-size:15px;
+    font-size: 15px;
 
   }
 
@@ -539,7 +536,7 @@ a:hover,
   .sticky-bottom {
 
     /* Positioning */
-    height:55px;
+    height: 55px;
 
   }
 
@@ -551,8 +548,8 @@ a:hover,
     on mobile */
 
     /* Positioning */
-    position:static;
-  
+    position: static;
+
   }
 
 
@@ -571,12 +568,8 @@ entire menu */
     margin-top: 0px;
 
     /* Positioning */
-    height:inherit;
+    height: inherit;
 
   }
 
 }
-
-
-
-
