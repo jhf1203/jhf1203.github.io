@@ -10,6 +10,16 @@ $(document).ready(() => {
         $(".demo-content").css("display", "block").html("<iframe width='768' height='432' src='https://www.youtube.com/embed/wW4C2hOhweg' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'");
     })
 
+    $("#tp-generator-demo-nav").on("click", () => {
+        $(".demo-window").css("display", "block")
+        $(".demo-content").css("display", "block").html("<iframe width='768' height='432' src='https://www.youtube.com/embed/U77DcU5zm8g' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'");
+    })
+
+    $("#tp-generator-demo-code").on("click", () => {
+        $(".demo-window").css("display", "block")
+        $(".demo-content").css("display", "block").html("<iframe width='768' height='432' src='https://www.youtube.com/embed/Rnv2ZL6jPqs' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>'");
+    })
+
     $("#calendar-demo-nav").on("click", () => {
         $(".demo-window").css("display", "block");
         $(".demo-content").css("display", "block").html("<img src='assets/demo-gifs/calendar-demo.gif' height='100%' width='100%'>");
@@ -38,7 +48,7 @@ $(document).ready(() => {
     $(".fa-window-close").on("click", () => {
         $(".demo-window").css("display", "none");
     })
-    
+
     $("#burger-nav").on("click", () => {
         $(".demo-window").css("display", "block");
         $(".demo-content").css("display", "block").html("<img src='assets/demo-gifs/burger-demo.gif' height='100%' width='100%'>");
